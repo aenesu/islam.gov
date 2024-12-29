@@ -5,6 +5,7 @@ import { HoveredLink, Menu, MenuItem, ProductItem } from "@/components/ui/navbar
 import { cn } from "@/lib/utils";
 import Image from "next/image";
 import Link from "next/link";
+import ContactSheet from "./contact";
 
 export default function Header() {
   const [active, setActive] = useState(null);
@@ -66,6 +67,8 @@ export default function Header() {
               <HoveredLink href="/individual">Individual</HoveredLink>
             </div>
           </MenuItem>
+          <ContactSheet />
+
         </Menu>
       </div>
     </div>
