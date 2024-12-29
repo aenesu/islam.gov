@@ -14,7 +14,7 @@ export default function Header() {
   const [active, setActive] = useState(null);
 
   return (
-    <div className="w-full flex items-center justify-evenly bg-zinc-900 h-[80px]">
+    <div className="w-full flex items-center justify-evenly bg-gradient-to-br from-zinc-700 to-zinc-900 h-[80px]">
       <Link href="/">
         <div className="pl-20"><Image
           className="fill-zinc100"

@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${poppins.className} antialiased flex w-screen flex-col`}
+        className={`${poppins.className} antialiased flex flex-col w-[99.2vw]`}
       >
         <Header />
         {children}

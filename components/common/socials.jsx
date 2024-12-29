@@ -9,7 +9,7 @@ import { FaXTwitter } from "react-icons/fa6";
 
 export default function Socials() {
     return (
-        <Menubar className="w-[700px] py-[20px] flex justify-center items-center">
+        <Menubar className="w-[615px] py-[20px] flex justify-center items-center">
             {/* Web Sitesi */}
             <MenubarMenu>
                 <MenubarTrigger
@@ -95,13 +95,13 @@ export default function Socials() {
                     asChild
                 >
                     <a
-                        href="https://twitter.com/diyanetdijital"
+                        href="https://x.com/diyanetdijital"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex items-center space-x-2 group"
                     >
-                        <FaXTwitter className="text-neutral-900 group-hover:text-[#1DA1F2]" />
-                        <span className="text-neutral-900 group-hover:text-[#1DA1F2]">Twitter</span>
+                        <FaXTwitter className="text-neutral-900 group-hover:text-slate-800" />
+                        <span className="text-neutral-900 group-hover:text-slate-800">X</span>
                     </a>
                 </MenubarTrigger>
             </MenubarMenu>
