@@ -5,7 +5,7 @@ import ContentCard from "./content-card";
 export default function Banner() {
   return (
     <div>
-      <div className="bg-gradient-to-br from-blue-800 to-zinc-900 h-[600px] w-full flex justify-center items-center py-24">
+      <div className="bg-gradient-to-br from-blue-800 to-zinc-900 h-[600px] w-full flex justify-center items-center py-24 shadow-[0_10px_20px_0px_rgba(0,0,0,0.7)] rounded-b-[50px]">
         <div className="flex gap-8 justify-center">
           {categories.map((category, index) => (
             <CategoryCard

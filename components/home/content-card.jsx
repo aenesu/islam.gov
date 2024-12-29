@@ -10,7 +10,7 @@ export default function ContentCard() {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % carouselData.length);
-    }, 10000); // 10 seconds
+    }, 4000);
     return () => clearInterval(interval);
   }, []);
 
@@ -42,7 +42,7 @@ export default function ContentCard() {
             {/* Text Content */}
             <div className="relative z-10 text-center px-6">
               {slide.type === "ayet-hadis" && (
-                <div className="flex flex-col gap-6">
+                <div className="flex flex-col justify-evenly">
                   {/* Ayet Section */}
                   <div>
                     <h3 className="text-lg text-zinc-100 font-bold mb-2">{slide.content.ayet.title}</h3>

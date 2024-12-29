@@ -5,7 +5,6 @@ import React from 'react'
 export default function CategoryCard({ name, description, icon, link }) {
     return (
         <div className="relative w-[280px] h-[350px] rounded-lg group">
-            {/* Background with growing glassy effect */}
             <div className="absolute inset-0 bg-white/10 backdrop-blur-lg rounded-lg opacity-0 scale-95 transition-all duration-1000 will-change-transform group-hover:opacity-100 group-hover:scale-105"></div>
 
             <Link
@@ -13,8 +12,8 @@ export default function CategoryCard({ name, description, icon, link }) {
                 className="relative z-10 flex flex-col gap-6 p-6 transition-transform duration-500 transform group-hover:scale-105"
             >
                 <div
-                    className="h-[160px] w-[160px] rounded-full flex items-center justify-center bg-sky-400 shadow-xl group-hover:shadow-2xl transition-shadow duration-300"
-                    style={{ boxShadow: 'inset 0px 1px 3px rgba(0, 0, 0, 1)' }}
+                    className="h-[160px] w-[160px] rounded-full flex items-center justify-center bg-gradient-to-br from-sky-400 to-blue-800 shadow-xl group-hover:shadow-2xl transition-shadow duration-300"
+                    style={{ boxShadow: 'inset 1px 1px 10px rgba(0, 0, 0, 1)' }}
                 >
                     <Image
                         className="fill-zinc100"
