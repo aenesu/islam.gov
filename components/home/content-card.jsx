@@ -1,25 +1,21 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import carouselData from "@/data/header-carousel-content.json";
+import Image from "next/image";
 
-export default function Carousel() {
+export default function ContentCard() {
   const [currentIndex, setCurrentIndex] = useState(0);
-
-  const slides = [
-    "This is the first page of the carousel.",
-    "This is the second page of the carousel.",
-    "This is the third page of the carousel.",
-  ];
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentIndex((prevIndex) => (prevIndex + 1) % slides.length);
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % carouselData.length);
     }, 10000); // 10 seconds
     return () => clearInterval(interval);
-  }, [slides.length]);
+  }, []);
 
   return (
-    <div className="w-[400px] h-[450px] relative overflow-hidden border rounded-lg shadow-md">
+    <div className="relative w-[400px] h-[450px] overflow-hidden rounded-lg shadow-md">
       {/* Carousel Content */}
       <div
         className="flex transition-transform duration-700"
@@ -27,19 +23,72 @@ export default function Carousel() {
           transform: `translateX(-${currentIndex * 100}%)`,
         }}
       >
-        {slides.map((text, index) => (
+        {carouselData.map((slide, index) => (
           <div
             key={index}
-            className="flex-shrink-0 w-[400px] h-[450px] flex items-center justify-center bg-gray-100 text-gray-800 text-xl p-4"
+            className="flex-shrink-0 w-[400px] h-[450px] relative flex items-center justify-center text-gray-800 text-xl"
           >
-            {text}
+            {/* Background Image */}
+            <div
+              className="absolute inset-0 bg-cover bg-center filter blur-sm opacity-10"
+              style={{
+                backgroundImage: `url(${slide.content.image})`,
+              }}
+            ></div>
+
+            {/* Overlay for Text Contrast */}
+            <div className="absolute inset-0 bg-black/20 rounded-lg"></div>
+
+            {/* Text Content */}
+            <div className="relative z-10 text-center px-6">
+              {slide.type === "ayet-hadis" && (
+                <div className="flex flex-col gap-6">
+                  {/* Ayet Section */}
+                  <div>
+                    <h3 className="text-lg text-zinc-100 font-bold mb-2">{slide.content.ayet.title}</h3>
+                    <p className="mb-1 text-zinc-100 text-base">{slide.content.ayet.text}</p>
+                    <small className="block text-sm mt-1 text-zinc-400">
+                      {slide.content.ayet.source}
+                    </small>
+                  </div>
+
+                  {/* Hadis Section */}
+                  <div className="mt-6">
+                    <h3 className="text-lg text-zinc-100 font-bold mb-2">{slide.content.hadis.title}</h3>
+                    <p className="mb-1 text-zinc-100 text-base">{slide.content.hadis.text}</p>
+                    <small className="block text-sm mt-1 text-zinc-400">
+                      {slide.content.hadis.source}
+                    </small>
+                  </div>
+                </div>
+              )}
+              {slide.type === "menkibe" && (
+                <div>
+                  <h3 className="text-lg text-zinc-100 font-bold mb-2">{slide.content.title}</h3>
+                  <p className="text-base text-zinc-100">{slide.content.text}</p>
+                </div>
+              )}
+              {slide.type === "kitap" && (
+                <div>
+                  <h3 className="text-lg text-zinc-100 font-bold mb-2">{slide.content.title}</h3>
+                  <Image 
+                    height={100}
+                    width={100}
+                    src={slide.content.photo}
+                    alt="Book Cover"
+                    className="h-[200px] w-auto mt-4 mx-auto"
+                  />
+                  <p className="mt-4 text-zinc-100 text-base">{slide.content.description}</p>
+                </div>
+              )}
+            </div>
           </div>
         ))}
       </div>
 
       {/* Indicators */}
       <div className="absolute bottom-4 left-0 right-0 flex justify-center space-x-2">
-        {slides.map((_, index) => (
+        {carouselData.map((_, index) => (
           <div
             key={index}
             onClick={() => setCurrentIndex(index)}

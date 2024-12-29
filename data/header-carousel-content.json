@@ -1,0 +1,37 @@
+[
+	{
+	  "type": "ayet-hadis",
+	  "content": {
+		"image": "/assets/images/kuran.jpg",
+		"ayet": {
+		  "title": "Bir Ayet",
+		  "text": "Allah, göklerin ve yerin nurudur. Onun nuru, içinde lamba bulunan bir kandile benzer.",
+		  "source": "Nur Suresi"
+		},
+		"hadis": {
+		  "title": "Bir Hadis",
+		  "text": "Kolaylaştırınız, zorlaştırmayınız; müjdeleyiniz, nefret ettirmeyiniz.",
+		  "source": "Buhari, İlim"
+		}
+	  }
+	},
+	{
+	  "type": "menkibe",
+	  "content": {
+		"image": "/assets/images/kandil.jpg",
+		"title": "Bir Menkıbe",
+		"text": "Bayezid-i Bistami hazretleri iki katlı bir evin dibinden geçerken, yukarıdan tepesine bir leğen kül döküldü. Kadın, özür diledi, görmediğini söyledi. Bistami hazretleri, 'Çok şükür, ateş dökülmesi gereken başa kül döküldü ucuz kurtulduk' dedi."
+
+	  }
+	},
+	{
+	  "type": "kitap",
+	  "content": {
+		"image": "/assets/images/kitaplık.jpg",
+		"photo": "/assets/images/kitap-kapağı.jpg",
+		"title": "Bir Kitap",
+		"description": "Bu kitap, dilin kötü alışkanlıklar ve gereksiz konuşmalarla insanın manevi hayatına nasıl zarar verdiğini anlatıyor."
+	  }
+	}
+  ]
+  
