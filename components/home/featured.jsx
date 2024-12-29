@@ -3,8 +3,8 @@ import Image from "next/image";
 export default function Featured() {
   return (
     <div>
-      <div className=" absolute w-full z-0 bg-gradient-to-br from-blue-800 to-sky-400 h-[750px]"></div>
-      <section className=" relative w-full z-10 h-[500px] justify-center text-zinc-100 py-12">
+      <div className=" absolute w-full z-0 bg-gradient-to-br from-blue-800 to-sky-400 h-[800px]"></div>
+      <section className=" relative w-full z-10 h-[500px] justify-center text-zinc-100 py-12 mb-12">
         <div className="container z-10 flex flex-col md:flex-row items-center justify-center">
           {/* Book Image */}
           <div className="p-4 min-w-[300px] flex justify-center">
