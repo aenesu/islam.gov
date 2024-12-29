@@ -1,0 +1,28 @@
+[
+    {
+      "icon": "/assets/icons/alif.svg",
+      "name": "Şehadet",
+      "description": "Her Müslüman Allah'ın birliğine, Peygamber'in elçiliğine şehadet eder"
+    },
+    {
+      "icon": "/assets/icons/sujud.svg",
+      "name": "Namaz",
+      "description": "Her Müslüman günde 5 vakit namaz kılar"
+    },
+    {
+      "icon": "/assets/icons/lantern.svg",
+      "name": "Oruç",
+      "description": "Müslümanlar Ramazan Ayı boyunca oruç tutar"
+    },
+    {
+      "icon": "/assets/icons/kaaba.svg",
+      "name": "Hac",
+      "description": "İmkanı olan her müslüman ömründe bir defa Hacc'a gider"
+    },
+    {
+      "icon": "/assets/icons/zekah.svg",
+      "name": "Zekat",
+      "description": "Her müslüman kendi imkanları nispetince zekat verir"
+    }
+  ]
+  

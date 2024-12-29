@@ -25,8 +25,8 @@ export default function ContactSheet() {
                     <SheetDescription className="font-semibold text-lg">Diyanet İşleri Başkanlığı</SheetDescription>
                     <SheetDescription className="font-semibold text-base">Dijital Yayınlar Daire Başkanlığı</SheetDescription>
                     <SheetDescription>Üniversiteler Mah. Dumlupınar Bulvarı No:147/A 06800 Çankaya/Ankara</SheetDescription>
-                    <SheetDescription>dijitalyayinlar@diyanet.gov.tr</SheetDescription>
-                    <SheetDescription>0312 295 99 01</SheetDescription>
+                    <SheetDescription><a href="mailto:dijitalyayinlar@diyanet.gov.tr">dijitalyayinlar@diyanet.gov.tr</a></SheetDescription>
+                    <SheetDescription><a href="tel:+903122959901">0312 295 99 01</a></SheetDescription>
                 </SheetHeader>
 
                 <div className="w-full h-full flex flex-1">

@@ -6,21 +6,23 @@ import { cn } from "@/lib/utils";
 import Image from "next/image";
 import Link from "next/link";
 import ContactSheet from "./contact";
+import { FaUser } from "react-icons/fa";
+import { CustomCursorButton } from "../ui/wood-cursor";
+import { Button } from "../ui/button";
 
 export default function Header() {
   const [active, setActive] = useState(null);
 
   return (
-    <div className="w-full flex items-center justify-center bg-zinc-900 h-[80px]">
+    <div className="w-full flex items-center justify-evenly bg-zinc-900 h-[80px]">
       <Link href="/">
-       <Image
-        className="fill-zinc100"
-        src="/assets/images/diyanet-dijital.png"
-        width={100}
-        height={100}
-        alt="Logo"
-        className="h-[35px] w-auto ml-12 px-4"
-      />
+        <div className="pl-20"><Image
+          className="fill-zinc100"
+          src="/assets/images/diyanet-dijital.png"
+          width={200}
+          height={100}
+          alt="Logo"
+        /></div>
       </Link>
       <div className={cn("inset-x-0 max-w-2xl mx-auto z-50 ")}>
         <Menu setActive={setActive}>
@@ -37,40 +39,49 @@ export default function Header() {
             <div className="text-sm grid grid-cols-2 gap-10 p-4">
               <ProductItem
                 title="Akaid Kütüphanesi"
-                href="https://algochurn.com"
+                href=""
                 src="/assets/images/quran.jpg"
-                description="Prepare for tech interviews like never before."
+                description="İnanç esaslarını ve temel dini kavramlara dair eserleri inceleyin."
               />
               <ProductItem
                 title="Fıkıh Kütüphanesi"
-                href="https://tailwindmasterkit.com"
-                src="/assets/images/kuran.jpg"
-                description="Production ready Tailwind css components for your next project"
+                href=""
+                src="/assets/images/pray.jpg"
+                description="İslam hukukunu ve dinî yaşamı düzenleyen kuralların inceleyin."
               />
               <ProductItem
                 title="Siyer Kütüphanesi"
-                href="https://gomoonbeam.com"
-                src="/assets/images/kitap-kapağı.jpg"
-                description="Never write from scratch again. Go from idea to blog in minutes."
+                href=""
+                src="/assets/images/siyer.jpg"
+                description="Hzç Muhammed'in  hayat hikayesi, yaşantısı ve hadislerini okuyun."
               />
               <ProductItem
                 title="Tasavvuf Kütüphanesi"
-                href="https://userogue.com"
+                href=""
                 src="/assets/images/kandil.jpg"
-                description="Respond to government RFPs, RFIs and RFQs 10x faster using AI."
+                description="Yolumuzu aydınlatanların hayatları ve eserlerini inceleyin."
               />
             </div>
           </MenuItem>
           <MenuItem setActive={setActive} active={active} item="Broşürler">
+          </MenuItem>
+          <MenuItem setActive={setActive} active={active} item="Hakkımızda">
             <div className="flex flex-col space-y-4 text-sm">
-              <HoveredLink href="/hobby">Hobby</HoveredLink>
-              <HoveredLink href="/individual">Individual</HoveredLink>
+              <HoveredLink href="https://www.diyanet.gov.tr/">Diyanet İşleri Başkanlığı</HoveredLink>
+              <HoveredLink href="https://diniyayinlar.diyanet.gov.tr/">Dini Yayınlar Genel Müdürlüğü</HoveredLink>
+              <HoveredLink href="https://yayin.diyanet.gov.tr/">Dijital Yayınlar Daire Başkanlığı</HoveredLink>
             </div>
           </MenuItem>
           <ContactSheet />
-
         </Menu>
+
       </div>
+
+
+      <Button className="flex hover:bg-zinc-800 mr-12">
+        Giriş Yap <FaUser className="text-zinc-100" />
+      </Button>
+
     </div>
   );
 }
