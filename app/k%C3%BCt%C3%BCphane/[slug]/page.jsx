@@ -34,7 +34,7 @@ export default function Read() {
             className="relative bg-cover bg-center min-h-screen px-4 py-8"
             style={{ backgroundImage: "url('/path-to-your-paper-texture.jpg')" }}
         >
-            <div className="max-w-3xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-6">
+            <div className="max-w-3xl mx-auto grid grid-cols-1 gap-6">
                 {loadedPages.map((page, index) => (
                     <div key={index} className="w-full">
                         <BookPageCard
