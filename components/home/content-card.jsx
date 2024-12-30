@@ -45,18 +45,26 @@ export default function ContentCard() {
                 <div className="flex flex-col justify-evenly">
                   {/* Ayet Section */}
                   <div>
-                    <h3 className="text-lg text-zinc-100 font-bold mb-2">{slide.content.ayet.title}</h3>
-                    <p className="mb-1 text-zinc-100 text-base">{slide.content.ayet.text}</p>
-                    <small className="block text-sm mt-1 text-zinc-400">
+                    <h3 className="text-lg sm:text-base text-zinc-100 font-bold mb-2">
+                      {slide.content.ayet.title}
+                    </h3>
+                    <p className="mb-1 text-zinc-100 text-base sm:text-sm">
+                      {slide.content.ayet.text}
+                    </p>
+                    <small className="block text-sm sm:text-xs mt-1 text-zinc-400">
                       {slide.content.ayet.source}
                     </small>
                   </div>
 
                   {/* Hadis Section */}
                   <div className="mt-6">
-                    <h3 className="text-lg text-zinc-100 font-bold mb-2">{slide.content.hadis.title}</h3>
-                    <p className="mb-1 text-zinc-100 text-base">{slide.content.hadis.text}</p>
-                    <small className="block text-sm mt-1 text-zinc-400">
+                    <h3 className="text-lg sm:text-base text-zinc-100 font-bold mb-2">
+                      {slide.content.hadis.title}
+                    </h3>
+                    <p className="mb-1 text-zinc-100 text-base sm:text-sm">
+                      {slide.content.hadis.text}
+                    </p>
+                    <small className="block text-sm sm:text-xs mt-1 text-zinc-400">
                       {slide.content.hadis.source}
                     </small>
                   </div>
@@ -64,21 +72,29 @@ export default function ContentCard() {
               )}
               {slide.type === "menkibe" && (
                 <div>
-                  <h3 className="text-lg text-zinc-100 font-bold mb-2">{slide.content.title}</h3>
-                  <p className="text-base text-zinc-100">{slide.content.text}</p>
+                  <h3 className="text-lg sm:text-base text-zinc-100 font-bold mb-2">
+                    {slide.content.title}
+                  </h3>
+                  <p className="text-base sm:text-sm text-zinc-100">
+                    {slide.content.text}
+                  </p>
                 </div>
               )}
               {slide.type === "kitap" && (
                 <div>
-                  <h3 className="text-lg text-zinc-100 font-bold mb-2">{slide.content.title}</h3>
-                  <Image 
+                  <h3 className="text-lg sm:text-base text-zinc-100 font-bold mb-2">
+                    {slide.content.title}
+                  </h3>
+                  <Image
                     height={100}
                     width={100}
                     src={slide.content.photo}
                     alt="Book Cover"
                     className="h-[200px] w-auto mt-4 mx-auto"
                   />
-                  <p className="mt-4 text-zinc-100 text-base">{slide.content.description}</p>
+                  <p className="mt-4 text-zinc-100 text-base sm:text-sm">
+                    {slide.content.description}
+                  </p>
                 </div>
               )}
             </div>
