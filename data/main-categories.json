@@ -3,18 +3,18 @@
 		"name": "Kur'an",
 		"description": "İslam'ın kutsal kitabı, Kur'an-ı Kerim okuyun",
 		"icon": "assets/icons/quran.svg",
-		"link": ""
+		"link": "/kütüphane"
 	},
 	{
 		"name": "Hadis",
 		"description": "Hz. Muhammed'in sözleri ve fiillerini burada okuyun",
 		"icon": "assets/icons/compass.svg",
-		"link": ""
+		"link": "/kütüphane"
 	},
 	{
 		"name": "İlim Merkezi",
 		"description": "İslami ilimler araştırma kütüphanesine erişin",
 		"icon": "assets/icons/library.svg",
-		"link": ""
+		"link": "/kütüphane"
 	}
 ]
