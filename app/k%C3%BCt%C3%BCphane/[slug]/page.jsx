@@ -34,15 +34,16 @@ export default function Read() {
             className="relative bg-cover bg-center min-h-screen px-4 py-8"
             style={{ backgroundImage: "url('/path-to-your-paper-texture.jpg')" }}
         >
-            <div className="max-w-3xl mx-auto space-y-6">
+            <div className="max-w-3xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-6">
                 {loadedPages.map((page, index) => (
-                    <BookPageCard
-                        key={index}
-                        pageIndex={index + 1}
-                        content={page.paragraphs} // Passing paragraphs as an array
-                        bookTitle={page.title} // Using the title from the JSON
-                        author="İlahiyat Ekibi" // Adjust the author dynamically if needed
-                    />
+                    <div key={index} className="w-full">
+                        <BookPageCard
+                            pageIndex={index + 1}
+                            content={page.paragraphs} // Passing paragraphs as an array
+                            bookTitle={page.title} // Using the title from the JSON
+                            author="İlahiyat Ekibi" // Adjust the author dynamically if needed
+                        />
+                    </div>
                 ))}
             </div>
         </div>

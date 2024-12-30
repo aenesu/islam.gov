@@ -1,7 +1,7 @@
 export default function BookPageCard({ pageIndex, content, bookTitle, author }) {
     return (
         <div
-            className="h-[1200px] p-4 sm:p-6 rounded-lg shadow-md relative bg-cover bg-center"
+            className="h-[960px] p-4 sm:p-6 rounded-lg shadow-md relative bg-cover bg-center"
             style={{
                 backgroundImage: "url('/assets/images/clear-pale-gray-colored-wall.jpg')",
             }}
