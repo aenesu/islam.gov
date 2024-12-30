@@ -3,13 +3,13 @@ import Image from "next/image";
 export default function Featured() {
   return (
     <div>
-      <div className=" absolute w-full z-0 bg-gradient-to-br from-blue-800 to-sky-400 h-[800px]"></div>
+      <div className=" absolute w-full z-0 mx-auto bg-gradient-to-br from-blue-800 to-sky-400 h-[800px]"></div>
       <section className=" relative w-full z-10 h-[500px] text-zinc-100 py-12 mb-12">
-        <div className="w-full container z-10 flex flex-col mx-auto md:flex-row">
+        <div className="w-full z-10 flex md:flex-row justify-center">
           {/* Book Image */}
           <div className="p-4 min-w-[300px] flex justify-center">
             <Image
-              src="/assets/images/kullugun-ozu-dua.png"
+              src="/assets/images/book-covers/kullugun-ozu-dua.png"
               width={300}
               height={100}
               alt="Featured Book"

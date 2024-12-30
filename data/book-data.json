@@ -1,0 +1,163 @@
+[
+  {
+    "title": "Sözlerin En Güzeli Kur'an",
+    "author": "Prof. Dr. İbrahim Hilmi Karslu",
+    "page_count": 120,
+    "description": "Kur’an, on dört asrı aşkın bir süredir Müslümanların pratik hayatlarının ve medeniyetlerinin değişmez ilham kaynağı olmuştur. Her dönemde bilginler, onu anlamaya ve keşfetmeye çalışmışlardır. Günümüzde de yeryüzünün değişik kıtalarında yaşayan sayısız Müslüman, onun dupduru hayat pınarından beslenmektedir. Merhamet, adalet, cömertlik ve daha nice insani erdem onun sayesinde yaşanmaktadır.",
+    "category": "Quran",
+    "cover": "/assets/images/book-covers/sozlerin-en-guzeli-kur-an.png"
+  },
+  {
+    "title": "İslam'da Kitaplara İman",
+    "author": "Dr. Abdülkadir Erkut",
+    "page_count": 57,
+    "description": "Kitaplara iman, iman esaslarından biridir. Mümin olmak için Allah’ın insanlara kitaplar gönderdiğine iman etmek gerekir. Kur’an’dan önceki kitaplara iman etmek, onların bozulmamış hâllerine iman etmek demektir. Tarih boyunca din konusunda bir olgunlaşma söz konusudur. Bu yüzden Kur’an kitapların en mükemmel ve kapsamlı olanıdır.",
+    "category": "Quran",
+    "cover": "/assets/images/book-covers/islam-da-kitaplara-iman.png"
+  },
+  {
+    "title": "İslam'da Kader ve Kaza İnancı",
+    "author": "Dr. Ahmet Mekin Kandemir",
+    "page_count": 73,
+    "description": "Kader ve özgürlük sorunu, insanlığın ilk dönemlerinden itibaren gerek felsefi ve dinî çevrelerin gerekse sıradan insanların gündemini meşgul etmiş ve yoğun tartışmalara neden olmuştur. İnsanın davranışlarında özgür olup olmadığı, özgür ise bunun dayanağının ne olduğu, eylem ve davranışlarının gerçek anlamda ona nispet edilip edilemeyeceği, yaptığı eylemlerin Allah tarafından belirlenip belirlenmediği vb. sorulara tarih boyunca birçok düşünür ve din adamı cevap aramıştır.",
+    "category": "Quran",
+    "cover": "/assets/images/book-covers/islam-da-kader-ve-kaz-inanci.png"
+  },
+  {
+    "title": "Ramazan'ın Bereketi Oruç",
+    "author": "Rukiye Aydoğdu Demir",
+    "page_count": 24,
+    "description": "Ramazan ayını Müslümanlar için önemli ve değerli kılan en temel özellik, “ramazan orucu”nun bu ay içerisinde tutulmasıdır. Ramazan ayında oruç tutmak, her Müslümanın üzerine farzdır ve İslam’ın temel ibadetlerinden biridir. Ramazan ayı oruçla anlamlı hâle gelir, oruç tutmayan insanlar onun tadını alamaz ve maneviyatından nasiplenemez.",
+    "category": "Quran",
+    "cover": "/assets/images/book-covers/ramazanin-bereketi-oruc.png"
+  },
+  {
+    "title": "Foundations of Fiqh",
+    "author": "Sheikh Omar Al-Azhar",
+    "page_count": 320,
+    "description": "An introductory guide to understanding Islamic jurisprudence.",
+    "category": "Quran",
+    "cover": "/assets/images/book-covers/musluman-in-gunluk-hayatinda-helaller-ve-haramlar.png"
+  },
+
+  {
+    "title": "The Prophetic Wisdom",
+    "author": "Hafiz Karimuddin",
+    "page_count": 275,
+    "description": "Lessons derived from the sayings of the Prophet Muhammad (PBUH).",
+    "category": "Hadith",
+    "cover": "https://via.placeholder.com/150x220?text=The+Prophetic+Wisdom"
+  },
+  {
+    "title": "Journey of the Prophet",
+    "author": "Fatima Zahra",
+    "page_count": 310,
+    "description": "A vivid retelling of the migration of Prophet Muhammad (PBUH) and its significance.",
+    "category": "Siyer",
+    "cover": "https://via.placeholder.com/150x220?text=Journey+of+the+Prophet"
+  },
+  {
+    "title": "The Principles of Worship",
+    "author": "Sheikh Zubair Haqqani",
+    "page_count": 260,
+    "description": "An in-depth study of the rulings and etiquettes of Islamic worship.",
+    "category": "Fiqh",
+    "cover": "https://via.placeholder.com/150x220?text=The+Principles+of+Worship"
+  },
+  {
+    "title": "Quranic Reflections",
+    "author": "Imam Hussain Al-Rashid",
+    "page_count": 290,
+    "description": "A journey through the Quran’s verses and their relevance to modern life.",
+    "category": "Quran",
+    "cover": "/assets/images/book-covers/kullugun-ozu-dua.png"
+  },
+  {
+    "title": "Companions' Narratives",
+    "author": "Ibn Hisham",
+    "page_count": 240,
+    "description": "A compilation of Hadiths narrated by the closest companions of the Prophet.",
+    "category": "Hadith",
+    "cover": "https://via.placeholder.com/150x220?text=Companions+Narratives"
+  },
+  {
+    "title": "In the Footsteps of the Prophet",
+    "author": "Tariq Ramadan",
+    "page_count": 340,
+    "description": "Exploring the life of the Prophet Muhammad (PBUH) through modern perspectives.",
+    "category": "Siyer",
+    "cover": "https://via.placeholder.com/150x220?text=In+the+Footsteps+of+the+Prophet"
+  },
+  {
+    "title": "The Legal Framework of Islam",
+    "author": "Shaykh Ali Umar",
+    "page_count": 410,
+    "description": "A scholarly work on the foundations of Islamic law and its applications.",
+    "category": "Fiqh",
+    "cover": "https://via.placeholder.com/150x220?text=The+Legal+Framework+of+Islam"
+  },
+  {
+    "title": "Lessons from Surah Al-Kahf",
+    "author": "Dr. Saeed Al-Makki",
+    "page_count": 200,
+    "description": "Insights into the themes and stories in Surah Al-Kahf.",
+    "category": "Quran",
+    "cover": "/assets/images/book-covers/islam-da-peygamberlere-iman.png"
+  },
+  {
+    "title": "Hadith: A Living Tradition",
+    "author": "Umm Kulthum",
+    "page_count": 230,
+    "description": "Understanding how Hadith continues to shape Islamic practice.",
+    "category": "Hadith",
+    "cover": "https://via.placeholder.com/150x220?text=Hadith:+A+Living+Tradition"
+  },
+  {
+    "title": "The Seerah Chronicles",
+    "author": "Ahmed Al-Muhajir",
+    "page_count": 450,
+    "description": "A detailed account of the events in the life of the Prophet Muhammad (PBUH).",
+    "category": "Siyer",
+    "cover": "https://via.placeholder.com/150x220?text=The+Seerah+Chronicles"
+  },
+  {
+    "title": "Marriage in Islam",
+    "author": "Sheikh Abdul Hadi",
+    "page_count": 210,
+    "description": "An Islamic perspective on the rules and etiquettes of marriage.",
+    "category": "Fiqh",
+    "cover": "https://via.placeholder.com/150x220?text=Marriage+in+Islam"
+  },
+  {
+    "title": "Quran and Modern Science",
+    "author": "Dr. Zakir Naik",
+    "page_count": 280,
+    "description": "Exploring the alignment of Quranic revelations with scientific discoveries.",
+    "category": "Quran",
+    "cover": "/assets/images/book-covers/islam-nedir.jpg"
+  },
+  {
+    "title": "The Prophetic Code",
+    "author": "Shaykh Mufti Mahmood",
+    "page_count": 310,
+    "description": "Unpacking the ethical teachings from the Hadiths.",
+    "category": "Hadith",
+    "cover": "https://via.placeholder.com/150x220?text=The+Prophetic+Code"
+  },
+  {
+    "title": "Siyer for Youth",
+    "author": "Layla Hasan",
+    "page_count": 350,
+    "description": "A youth-friendly approach to learning about the life of the Prophet.",
+    "category": "Siyer",
+    "cover": "https://via.placeholder.com/150x220?text=Siyer+for+Youth"
+  },
+  {
+    "title": "Inheritance in Islam",
+    "author": "Dr. Yusuf Shabir",
+    "page_count": 250,
+    "description": "A detailed guide to understanding the rules of inheritance in Islamic law.",
+    "category": "Fiqh",
+    "cover": "https://via.placeholder.com/150x220?text=Inheritance+in+Islam"
+  }
+]
