@@ -6,7 +6,7 @@ export default function BookCard({ book }) {
 
   return (
     <Link href={`/kütüphane/${title.replace(/\s+/g, '-').toLowerCase()}`}>
-      <div className="flex flex-col sm:flex-row w-full sm:w-[550px] mx-auto bg-white shadow-md rounded-lg overflow-hidden transform transition-transform duration-300 hover:scale-105 cursor-pointer">
+      <div className="flex flex-col sm:flex-row w-full md:w-[600px] lg:w-[550px] mx-auto bg-white shadow-md rounded-lg overflow-hidden transform transition-transform duration-300 hover:scale-105 cursor-pointer">
         {/* Cover Image */}
         <div className="w-full sm:w-1/3">
           <img

@@ -38,7 +38,7 @@ export default function Kütüphane() {
 
       {/* Books List with Transition */}
       <div
-        className={`mt-10 max-w-[1200px] mx-auto px-8 grid grid-cols-1 md:grid-cols-2 gap-6 transition-all duration-1000 ${
+        className={`mt-10 max-w-[1200px] mx-auto px-8 grid grid-cols-1 lg:grid-cols-2 gap-6 transition-all duration-1000 ${
           showContent ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
         }`}
       >
